@@ -9,8 +9,6 @@
             margin: 0;
             padding: 0;
             background-color: #e6e6e6;
-            background-image: url('crumpled-paper.jpg'); /* Add the path to your crumpled paper image */
-            background-repeat: repeat; /* Set the background repeat property */
         }
 
         header {
@@ -18,40 +16,86 @@
             color: #b395d1;
             text-align: center;
             position: relative;
-            padding: 20px; /* Add some padding to the header for better visibility */
+            padding: 20px;
         }
 
         header h1 {
             font-size: 32px;
             font-family: "Lucida Console", "Courier New", monospace;
-            margin: 0; /* Remove default margin for the h1 element */
+            margin: 0;
         }
 
         header p {
             color: #3a3440;
             font-size: 20px;
             font-style: italic;
-            margin: 0; /* Remove default margin for the p element */
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav li {
+            margin: 0 15px;
+            display: inline;
+        }
+
+        nav a {
+            color: #575757;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
         }
 
         h2 {
             color: #575757;
         }
+      
 
-        a {
-            color: #b785ee;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
 
+
     <header>
-        <h1>୨୧* Maleeha Abrar *୨୧</h1>
-        <p>traditional art and illustration</p>
+        <img class="logo-img" src="cat logo.png" alt="Logo">
+        <h1>୨୧.* Maleeha Abrar *.୨୧</h1>
+        <p>traditional art portfolio</p>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <h2>About Me:</h2>
+    <section id="about">
+        <h2>About</h2>
+        <!-- Add your content for the "About Me" section here -->
+    </section>
 
+    <section id="history">
+        <h2>History</h2>
+        <!-- Add your content for the "Portfolio" section here -->
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your content for the "Contact" section here -->
+    </section>
+
+    <!-- You can add more sections as needed -->
 </body>
 </html>
